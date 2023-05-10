@@ -1,0 +1,125 @@
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+:root {
+    /* colors */
+    --clr-blue: #345FF6;
+    --clr-gunmetal: #253347;
+    --clr-dark-electric-blue: #5E6E85;
+    --clr-borders: #D8E2E7;
+    --clr-pure-white: #FFFFFF;
+
+    /* font-sizes */
+    --fs-regular: 400;
+    --fs-semibold: 600;
+    --fs-bold: 700;
+
+    /* font-families */
+    --ff-inter-font-family: "Inter";
+}
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.fw-regular {
+    font-weight: var(--fs-regular);
+}
+
+.fw-semibold {
+    font-weight: var(--fs-semibold);
+}
+
+body {
+    margin: 0 auto;
+    font-family: var(--ff-inter-font-family);
+    line-height: 1.5;
+}
+
+header {
+    background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
+    border-radius: 0 0 35px 35px;
+    height: 640px;
+    padding: 0 1.5em;
+    text-align: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 2em; /* 32px */
+}
+
+.headingXL {
+    font-family: var(--ff-inter-font-family);
+    font-size: 4rem; /* 64px */
+    font-weight: var(--fs-semibold);
+    line-height: 1.1;
+}
+
+.headingL {
+    margin-top: 0.5em; /* 24px; */
+    font-size: 3rem; /* 48px */
+    font-weight: var(--fs-semibold);
+    line-height: 1.1;
+    letter-spacing: -0.05em;
+}
+
+.headingM {
+    font-size: 1.5rem; /* 24px; */
+    font-weight: var(--fs-semibold);
+    line-height: 1.1;
+}
+
+.headingS {
+    font-size: 1.25rem; /* 20px; */
+    font-weight: var(--fs-semibold);
+    line-height: 1.1;
+}
+
+
+.bodyM {
+    font-size: 1rem;
+    font-weight: var(--fs-regular);
+    line-height: 1.5;
+
+    display: flex;
+    align-self: stretch;
+}
+
+.bodyMBold {
+    font-size: 1rem;
+    font-weight: var(--fs-semibold);
+    line-height: 1.5;
+}
+
+.bodyS {
+    font-size: 0.875rem;
+    font-weight: var(--fs-regular);
+    line-height: 1.5;
+}
+
+
+.clr-gunmetal {
+    color: var(--clr-gunmetal);
+}
+
+.clr-dark-electric-blue{
+    color: var(--clr-dark-electric-blue);
+}
+
+.bmi-description {
+    margin-top: 24px;
+    align-self: stretch;
+    color: #5E6E85;
+}
+/* typography */
+.ff-inter-font-family {
+    font-family: var(--ff-inter-font-family);
+}
